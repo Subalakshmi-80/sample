@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tripster</title>
+
+  <!-- Link to css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <section class="navbar">
+    <div class="nav-1">
+      <h1><span>Trip</span>ster</h1>
+
+    </div>
+    <div class="nav-2">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="./trips.html">Trips</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="#">Review</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="./contact.html">Contacts</a></li>
+      </ul>
+    </div>
+    <div class="nav-3">
+      <i class="fa-solid fa-cart-shopping" style="color: rgb(1, 1, 68);"></i>
+      <i class="fa-solid fa-magnifying-glass" style="color: rgb(1, 1, 68);"></i>
+    </div>
+  </section>
+
+  <!-- Banner -->
+  <section class="banner" id="top">
+
+    <div class="b-1">
+      <h1>My Daily Travel Blog To Inspire And Get You Motivated!</h1>
+
+      <hr class="line">
+      <p>Hi! I'm <span>Paul Harrington</span> — an adventure travel photographer, professional blogger, and digital
+        nomad.</p>
+      <a href="about.html"><button class="btn1">More About</button></a>
+    </div>
+  </section>
+
+  <!-- Explore -->
+  <section class="explore">
+    <h1>Explore Destinations</h1>
+    <hr class="line">
+    <p>We offer you our low-budget travel plans and guides from around the world, full of versatile itinerary ideas,
+      priceless travel tips, and recommendations for places to go.
+
+    </p>
+
+    <div class="ex-des">
+      <div class="ex-1">
+        <img src="./images/one.jpg" alt="">
+        <h2>Adventure</h2>
+        <i class="fa-solid fa-greater-than"></i>
+      </div>
+
+      <div class="ex-1">
+        <img src="./images/two.jpg" alt="">
+        <h2>China</h2>
+        <i class="fa-solid fa-greater-than"></i>
+      </div>
+
+      <div class="ex-1">
+        <img src="./images/three.jpg" alt="">
+        <h2>Discover</h2>
+        <i class="fa-solid fa-greater-than"></i>
+      </div>
+
+      <div class="ex-1">
+        <img src="./images/four.jpg" alt="">
+        <h2>Explore</h2>
+        <i class="fa-solid fa-greater-than"></i>
+      </div>
+
+      <div class="ex-1">
+        <img src="./images/five.jpg" alt="">
+        <h2>Greece</h2>
+        <i class="fa-solid fa-greater-than"></i>
+      </div>
+
+      <div class="ex-1">
+        <img src="./images/six.jpg" alt="">
+        <h2>Holidays</h2>
+        <i class="fa-solid fa-greater-than"></i>
+      </div>
+    </div>
+
+   <a href="./trips.html"><button class="btn1">Show All Places</button></a> 
+
+  </section>
+
+  <!-- Guide -->
+  <section class="guide">
+    <div class="guide-1">
+      <h1>The Ultimate Guide To </h1>
+      <h1>"Planning An Epic Adventure"</h1>
+      <hr class="line">
+      <p><span>Wish you could travel more</span> — but lack the time or money? Look no further and don't worry about it,
+        because my step-by-step low-budget guide will help you a lot. Check it out right now!</p>
+
+
+      <div class="form">
+        <input type="text" id="fname"placeholder="First Name" required>
+        <input type="text" id="lname" placeholder="Last Name" required>
+        <input type="email" class="email" id="email"placeholder="Your Email" required>
+        <button class="Submit" type="submit"    onclick=validate()>Submit</button>
+
+
+      </div>
+
+      <p id="check"><input type="checkbox" id="checks">I agree that my submitted data is being <span>collected and stored</span>.
+      </p>
+
+      <p id="error">
+        Please check this box if you want to proceed
+      </p>
+
+
+      <div class="display-msg index-msg" id="display-msg">
+      Thank you for your message. It has been sent.
+    
+
+      </div>
+    </div>
+
+
+
+
+    <div class="guide-2">
+      <img src="./images/guides.jpg" alt="">
+    </div>
+  </section>
+
+  <!-- My Journal -->
+  <section class="journal">
+    <h1 class="j-title">Latest From My Journal</h1>
+    <hr class="line">
+    <div class="articles">
+      <div class="journal-1">
+        <div class="one">
+          <img src="./images/j-1.jpg" alt="" />
+          <h1>Discovering the Highest Mountain Peak of Veleta</h1>
+        </div>
+        <div class="one ">
+          <img src="./images/j-2.jpg" alt="" />
+          <h1>Tips to Plan an Excellent Family Travel Adventure</h1>
+        </div>
+      </div>
+      <div class="journal-2">
+        <div class="j-2-main">
+          <img src="./images/j-3.jpg" alt="" />
+
+          <div class="journal-cont">
+            <h2>Our Trip to the Great Wall in China</h2>
+            <div class="date-icon">
+              <button class="travel">Travel Adventure</button>
+              <p>
+                <i class="fa-solid fa-clock" style="color: #706f6f"></i>June
+                5,2024
+              </p>
+            </div>
+
+            <p class="recommend">
+              Read our recommendations for getting the most fun from your trip
+              to the Great Wall: the best time for visiting, how to avoid long
+              lines, how to choose the right section of the Wall.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <a href="./trips.html"><button class="btn1">Show All Posts</button></a> 
+  </section>
+
+  <!-- Travel videos -->
+  <section class="travel-videos">
+    <div class="travel-cont">
+      <div class="travel-1">
+        <video src="./images/178732-860527368_small.mp4" controls></video>
+      </div>
+
+      <div class="travel-2">
+        <h1>Travel Videos from Around the World</h1>
+        <hr class="line">
+        <p>Traveling is always a good idea. Watch a collection of breathtaking videos from our thankful clients to get
+          some travel inspiration.</p>
+        <div class="Youtube">
+          <h2>Follow My Adventures On</h2>
+          <a href="https://www.youtube.com/results?search_query=adventure+related+videos" target="_blank"><button
+              class="btn1 btn2">YouTube!</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe -->
+  <section class="subscribe">
+    <h1>Subscribe to Newsletter</h1>
+    <hr class="line">
+    <p>If you want to know more about how travelling works, sign up for my <span>free newsletter </span>full of tips and
+      great travel ideas.</p>
+    <div class="email-sub">
+      <input type="email" id="" placeholder="Your email address..." required>
+      <button class="btn1 btn2" type="submit">Subscribe</button>
+
+    </div>
+    <p id="check"><input type="checkbox" name="" id="">I agree to the Privacy Policy.</p>
+
+  </section>
+
+  <!-- Footer -->
+  <section class="footer">
+    <hr>
+    <div class="social-media">
+       <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i>Facebook <span>|</span></a>
+      <a href="https://x.com/" target="_blank"> <i class="fa-brands fa-x-twitter"></i> X <span>|</span></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram <span>|</span></a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i>Youtube <span>|</span></a>
+      <a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i>Pinterest <span>|</span></a>
+    </div>
+
+    <div class="copyright">
+      <p>AxiomThemes &copy; 2025. All Rights Reserved.
+      </p>
+    </div>
+
+    <a href="#top" class="up"><i class="fa-solid fa-angle-up" style="color: #ffffff;"></i></a>
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

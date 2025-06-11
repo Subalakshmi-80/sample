@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripster</title>
+
+     <!-- Link to css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+     <!-- Navbar -->
+    <section class="navbar">
+        <div class="nav-1">
+            <h1><span>Trip</span>ster</h1>
+
+        </div>
+        <div class="nav-2">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Trips</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="#">Review</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="./contact.html">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="nav-3">
+            <i class="fa-solid fa-cart-shopping" style="color: rgb(1, 1, 68);"></i>
+            <i class="fa-solid fa-magnifying-glass" style="color: rgb(1, 1, 68);"></i>
+        </div>
+    </section>
+
+    <!-- Banner -->
+    <section class="about-banner">
+        <h1>Contacts</h1>
+        <p><a href="./index.html">Home</a>/Contacts</p>
+
+    </section>
+
+    <!-- Address -->
+     <section class="address">
+        <div class="address-box">
+            <i class="fa-solid fa-location-dot" style="color: #e6541f;"></i>
+            <h2>Address</h2>
+            <p>487 8th Avenue, Suite 721,New York NY 10010</p>
+        </div>
+
+        <div class="address-box">
+            <i class="fa-solid fa-envelope" style="color: #e6541f;"></i>
+            <h2>Mail</h2>
+            <p>tripster@example.com</p>
+            <p>info@exampleinfo.com</p>
+        </div>
+
+        <div class="address-box">
+            <i class="fa-solid fa-phone" style="color: #e6541f;"></i>
+            <h2>Phone</h2>
+            <p>+113 4567 90 91</p>
+            <p>+113 4567 90 90</p>
+        </div>
+     </section>
+
+     <!-- map -->
+      <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.05054950784!2d-74.3091599323097!3d40.69719336013737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1749380437300!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+      <!-- Get in Touch -->
+       <section class="touch">
+        <h1>Get In Touch With Us</h1>
+        <hr class="line">
+        <div class="touch-detail">
+            <input type="text" placeholder="Your Name" required id="c-name">
+            <input type="email" placeholder="Your Email" required id="c-email">
+            <br>
+            <textarea placeholder="Message"></textarea>
+            
+        </div>
+        <p id="check"><input type="checkbox">I agree that my submitted data is being <span>collected and stored</span>.
+      </p>
+
+      <p id="error">
+        Please check this box if you want to proceed
+      </p>
+       <button class="send-msg" id="send-msg" onclick=contact()>Send Message</button>
+
+       <div class="display-msg" id="display-msg">
+        Thank you for your message. It has been sent.
+
+      </div>
+
+       </section>
+
+        <!-- Footer -->
+     <section class="about-footer">
+        <div class="about-media">
+      <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i>Facebook <span>|</span></a>
+      <a href="https://x.com/" target="_blank"> <i class="fa-brands fa-x-twitter"></i> X <span>|</span></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram <span>|</span></a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i>Youtube <span>|</span></a>
+      <a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i>Pinterest <span>|</span></a>
+    </div>
+    <hr>
+
+    <div class="copyright about-copy">
+      <p><span>AxiomThemes </span>&copy; 2025. All Rights Reserved.
+      </p>
+    </div>
+     </section>
+
+     <script src="./script.js"></script>
+</body>
+</html>
